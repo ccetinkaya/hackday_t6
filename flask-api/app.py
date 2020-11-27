@@ -6,7 +6,7 @@ from pymongo import ReturnDocument
 
 app = Flask(__name__)
 
-app.config['MONGO_DBNAME'] = 'coins'
+app.config['MONGO_DBNAME'] = 'visitorcount'
 app.config[
     'MONGO_URI'] = 'mongodb+srv://HackDay2020project_6:nHpEaDEnE9W2vxs@cluster0.ml76g.mongodb.net/<dbname>?retryWrites=true&w=majority'
 
@@ -19,7 +19,16 @@ def get_all_visitorcount():
     visitorcount = mongo.db.visitorcount
     output = []
     for s in visitorcount.find():
-        output.append({'_id': s['_id']})
+        output.append({'plz': s['plz']})
+    return jsonify({'result': output})
+
+# Get all visitors postal code (read all data _id)
+@app.route('/visitorcount/event', methods=['GET'])
+def get_all_visitorcount_event():
+    visitorcount = mongo.db.visitorcount
+    output = []
+    for s in visitorcount.find():
+        output.append({'event': s['event']})
     return jsonify({'result': output})
 
 # Post one visitors postal code (read all plz)
