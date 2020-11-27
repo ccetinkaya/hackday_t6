@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "06d7adef-6e77-4586-8841-f6fde7260e37",
+		"name": "HackDay",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/webapp/add_plz",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": true,
+				"followAuthorizationHeader": true,
+				"removeRefererHeaderOnRedirect": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"event\":\"Hackday \",  \"plz\":\"4403\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/visitorcount/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"visitorcount",
+						"add"
+					]
+				},
+				"description": "Create Emotion Request (POST)"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/webapp/all_plz",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"followOriginalHttpMethod": true,
+				"followAuthorizationHeader": true,
+				"removeRefererHeaderOnRedirect": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/visitorcount",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"visitorcount"
+					]
+				},
+				"description": "Get all Emotion Data from all users"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/webapp/events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"followOriginalHttpMethod": true,
+				"followAuthorizationHeader": true,
+				"removeRefererHeaderOnRedirect": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/visitorcount",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"visitorcount"
+					]
+				},
+				"description": "Get all Emotion Data from all users"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/webapp/plz_einzeln",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"followOriginalHttpMethod": true,
+				"followAuthorizationHeader": true,
+				"removeRefererHeaderOnRedirect": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"_id\": \"max_musterman@gmail.com\" , \"emotions\" : [\n{\"time\": \"0.5\", \"sad\" : \"0.2\", \"angry\" : \"0.5\"}\n]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/visitorcount/search/1111",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"visitorcount",
+						"search",
+						"1111"
+					]
+				},
+				"description": "Search for name in database"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
