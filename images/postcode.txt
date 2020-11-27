@@ -1,0 +1,13 @@
+6030	Ebikon
+6020	Emmenbrücke
+6032	Emmen
+6005	St. Niklausen
+6047	Kastanienbaum
+6048	Horw
+6005	(Luzern - Kriens - Horw)
+6010	(Kriens)
+6011	(Kriens)
+6012	(Obernau)
+6013 	(Schwarzenberg)
+6014	Littau
+6015	Reussbühl
