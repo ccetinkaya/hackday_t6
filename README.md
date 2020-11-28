@@ -52,7 +52,7 @@ The original idea was, to have a connection to MongoDB server which is regularly
 
 Here is an example of what it could look like on the tablet. Further visualisations can be found in the folder images in the power point presentation. 
 
-![Visualisation](images/Tableau.png)
+![Visualisation](images/Visitors.png)
 
 ## 3) Next steps
 1. To make it more user friendly the setup should be brought to the cloud.
