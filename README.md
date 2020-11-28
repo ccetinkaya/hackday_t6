@@ -41,7 +41,7 @@ For the Front end Web development, the JavaScript React Framework was used. For 
 The user gets a feedback after inserting the zip code on the tablet.
 
 Here is a first look of the WebApp with different buttons for the zip codes. 
-![WebApp](images/WebApp2.png)
+![WebApp](images/WebApp3.png)
 
 ### Visualisation
 For the visualisations we wanted to set up a connection to the MongoDB, but this was in the short time of the hackathon not possible. Therefore Tableau visaulisations were created without a connection and with a sample dataset. 
