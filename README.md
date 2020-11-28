@@ -42,6 +42,8 @@ Functions to get all postal codes and events entered by the visitors of the even
 ### Frontend: WebApp
 For the Front end Web development, the JavaScript React Framework was used. For this challenge a very simple App will be setup because only a few buttons are needed for the input of the zip codes. It should be as simple as possible for the user.
 The user gets a feedback after inserting the zip code on the tablet.
+Here is a first look of the WebApp with different buttons for the zip codes. 
+![WebApp](images/Webapp.png)
 
 ### Visualisation
 For the visualisations we wanted to set up a connection to the MongoDB, but this was in the short time of the hackathon not possible. Therefore Tableau visaulisations were created without a connection and with sample dataset. The visualisations were added to a powerpoint presentation which can be found under the folder "images" int this Github Repository. 
