@@ -27,9 +27,6 @@ Link to the Hackathon Challenges:
 [hack.opendata](https://hack.opendata.ch/event/35#top)
 
 ## 2) Practical Approach to solve the challenge
-### Set up the environment
-1. Create connection to the MongoDB 
-2. Test the Backend with Postman
 
 ### Architecture
 For this project the database management system MongoDB is used for the data storage. For the backend Python Flask is used, for the frontend the JavaScript React Framework and for the visualisations Tableau. 
@@ -55,7 +52,7 @@ Here is an example of what it could look like on the tablet. Further visualisati
 ![Visualisation](images/Visitors.png)
 
 ## 3) Next steps
-1. To make it more user friendly the setup should be brought to the cloud. This would make the data more accessible for different users. 
-2. Add more postal codes for surrounding areas and finalise the design of the web app.
-3. Create better visualisations according to the needs of the city of Lucerne in Tableau. 
+1. Frontend enlargement. To make it more user friendly the setup should be brought to the cloud. This would make the data more accessible for different users. Additionally, more postal codes are added for surrounding areas and the design of the web app is finalised.
+2. Create further visualisations to give feedback to the visitors at the events. 
+3. In order for the city of Lucerne to have an overview over the visitors, a second use case is created. According to the needs of the city of Lucerne visualisations in Tableau will be created. 
 4. A pilot should be setup at one event location to test the web app.
