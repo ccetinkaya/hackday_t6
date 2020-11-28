@@ -46,8 +46,11 @@ Here is a first look of the WebApp with different buttons for the zip codes.
 ![WebApp](images/Webapp.png)
 
 ### Visualisation
-For the visualisations we wanted to set up a connection to the MongoDB, but this was in the short time of the hackathon not possible. Therefore Tableau visaulisations were created without a connection and with sample dataset. The visualisations were added to a powerpoint presentation which can be found under the folder "images" int this Github Repository. 
+For the visualisations we wanted to set up a connection to the MongoDB, but this was in the short time of the hackathon not possible. Therefore Tableau visaulisations were created without a connection and with a sample dataset. 
 The original idea was, to have a connection to MongoDB server which is regularly updated in order to have nearly real time data of the input of the zip codes at the events.
+
+Here is an example of what it could look like on the tablet. Further visualisations can be found in the folder images in the power point presentation. 
+![Visualisation](images/Tableau.png)
 
 ## 3) Next steps
 1. To make it more user friendly the setup should be brought to the cloud.
