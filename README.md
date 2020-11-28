@@ -3,7 +3,7 @@
 # 06 Quantification of visitors of cultural events in Lucerne
 # Create a prototype of a technical solution to count visitors of cultural events
 #
-# Team 6: Yvonne, Salome, Thushanth, Adriana, Cengiz 
+# Team 6: Christina, Yvonne, Salome, Thushanth, Adriana, Cengiz 
 
 
 Problem
