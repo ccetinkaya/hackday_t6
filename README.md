@@ -44,7 +44,8 @@ For the Front end Web development, the JavaScript React Framework was used. For 
 The user gets a feedback after inserting the zip code on the tablet.
 
 ### Visualisation
-For the visualisations a connection to the MongoDB was setup in Tableau. A dashboard with a map of the surrounding municipalities of Lucerne was created, as we want to see from which municipalities there are how many visitors. The information from the MongoDB server is regularly updated in order to have nearly real time data of the input of the zip codes at the events.
+For the visualisations we wanted to set up a connection to the MongoDB, but this was in the short time of the hackathon not possible. Therefore Tableau visaulisations were created without a connection and with sample dataset. The visualisations were added to a powerpoint presentation which can be found under the folder "images" int this Github Repository. 
+The original idea was, to have a connection to MongoDB server which is regularly updated in order to have nearly real time data of the input of the zip codes at the events.
 
 ## 3) Next steps
 1. To make it more user friendly the setup should be brought to the cloud.
