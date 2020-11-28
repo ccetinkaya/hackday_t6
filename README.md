@@ -33,7 +33,7 @@ Link to the Hackathon Challenges:
 
 ### Architecture
 For this project the database management tool MongoDB is used for the data storage. For the backend Python Flask is used and for the visualisations Tableau. 
-![Architecture](images/image.png)
+![Architecture](images/Architecture.png)
 
 ## Backend
 For Backend the Python web application framework Flask is used. A connection to MongoDB is setup.
