@@ -1,14 +1,37 @@
 import './App.css';
 import Button from 'react-bootstrap/Button'
+import Logo from "/pictures/shapemycity.jpg";
+
+
+
+const ColoredLine = ({ color }) => (
+  <hr
+      style={{
+          color: color,
+          backgroundColor: color,
+          height: 1,
+          borderColor : '#000000'
+          
+      }}
+  />
+);
+
+
 
 
 
 function App() {
   return (
     <div className="App">
+	
       <text>
+		<img src={Logo} />
         <h3>Shape my City (27 - 28. November 2020)</h3>
         <h2> Visitor quantification of cultural events in Lucerne</h2>
+		
+		<ColoredLine color="#0082c7" />
+		<br></br>
+		
 		
         <h4> UNLOCK THE SECRETS WITH YOUR POSTCODE</h4>
 		<p> Press the button of your postcode to access the secrets of today's event </p>
