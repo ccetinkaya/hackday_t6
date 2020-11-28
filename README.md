@@ -42,6 +42,7 @@ Functions to get all postal codes and events entered by the visitors of the even
 ### Frontend: WebApp
 For the Front end Web development, the JavaScript React Framework was used. For this challenge a very simple App will be setup because only a few buttons are needed for the input of the zip codes. It should be as simple as possible for the user.
 The user gets a feedback after inserting the zip code on the tablet.
+
 Here is a first look of the WebApp with different buttons for the zip codes. 
 ![WebApp](images/Webapp.png)
 
@@ -50,6 +51,7 @@ For the visualisations we wanted to set up a connection to the MongoDB, but this
 The original idea was, to have a connection to MongoDB server which is regularly updated in order to have nearly real time data of the input of the zip codes at the events.
 
 Here is an example of what it could look like on the tablet. Further visualisations can be found in the folder images in the power point presentation. 
+
 ![Visualisation](images/Tableau.png)
 
 ## 3) Next steps
