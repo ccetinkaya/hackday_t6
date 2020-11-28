@@ -35,7 +35,7 @@ Link to the Hackathon Challenges:
 For this project the database management tool MongoDB is used for the data storage. For the backend Python Flask is used and for the visualisations Tableau. 
 ![Architecture](images/Architecture.png)
 
-## Backend
+### Backend
 For Backend the Python web application framework Flask is used. A connection to MongoDB is setup.
 Functions to get all postal codes and events entered by the visitors of the events on the web app and to write it into the database. 
 
@@ -46,7 +46,7 @@ The user gets a feedback after inserting the zip code on the tablet.
 ### Visualisation
 For the visualisations a connection to the MongoDB was setup in Tableau. A dashboard with a map of the surrounding municipalities of Lucerne was created, as we want to see from which municipalities there are how many visitors. The information from the MongoDB server is regularly updated in order to have nearly real time data of the input of the zip codes at the events.
 
-## Next steps
+## 3) Next steps
 1. To make it more user friendly the setup should be brought to the cloud.
 2. Add more postal codes for surrounding areas.
 3. Create better visualisations according to the needs of the city of Lucerne. 
