@@ -32,7 +32,7 @@ Link to the Hackathon Challenges:
 2. Test the Backend with Postman
 
 ### Architecture
-For this project the database management tool MongoDB is used for the data storage. For the backend Python Flask is used and for the visualisations Tableau. 
+For this project the database management system MongoDB is used for the data storage. For the backend Python Flask is used, for the frontend the JavaScript React Framework and for the visualisations Tableau. 
 ![Architecture](images/Architecture.png)
 
 ### Backend
@@ -55,7 +55,7 @@ Here is an example of what it could look like on the tablet. Further visualisati
 ![Visualisation](images/Visitors.png)
 
 ## 3) Next steps
-1. To make it more user friendly the setup should be brought to the cloud.
-2. Add more postal codes for surrounding areas.
-3. Create better visualisations according to the needs of the city of Lucerne. 
+1. To make it more user friendly the setup should be brought to the cloud. This would make the data more accessible for different users. 
+2. Add more postal codes for surrounding areas and finalise the design of the web app.
+3. Create better visualisations according to the needs of the city of Lucerne in Tableau. 
 4. A pilot should be setup at one event location to test the web app.
