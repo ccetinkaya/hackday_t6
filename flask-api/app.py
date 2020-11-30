@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from flask import jsonify
 from flask import request
 from flask_pymongo import PyMongo
@@ -12,6 +13,10 @@ app.config[
 
 mongo = PyMongo(app)
 
+# Cross origin response header
+@app.route("/visitorcount")
+def crossorigin():
+  return "cross-origin-world!"
 
 # Get all visitors postal code (read all data _id)
 @app.route('/visitorcount', methods=['GET'])
