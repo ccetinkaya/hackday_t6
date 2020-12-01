@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 app.config['MONGO_DBNAME'] = 'visitorcount'
 app.config[
-    'MONGO_URI'] = 'mongodb+srv://HackDay2020project_6:nHpEaDEnE9W2vxs@cluster0.ml76g.mongodb.net/<dbname>?retryWrites=true&w=majority'
+    'MONGO_URI'] = 'mongodb+srv://HackDay2020project_6:***************@cluster0.ml76g.mongodb.net/<dbname>?retryWrites=true&w=majority'
 
 mongo = PyMongo(app)
 
